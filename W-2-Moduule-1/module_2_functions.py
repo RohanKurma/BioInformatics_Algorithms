@@ -1,8 +1,6 @@
 def stringCompositions(k, text):
     return [text[i:i+k] for i in range(len(text)-k+1)]
 
-
-
 def genomePathProblem(kmers):
 
     string = ""
